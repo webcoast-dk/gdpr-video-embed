@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language="de" datatype="plaintext">
+        <body>
+            <trans-unit id="overlay.header">
+                <source>We protect your privacy</source>
+                <target>Wir schützen deine Privatsphäre</target>
+            </trans-unit>
+            <trans-unit id="overlay.text.youtube">
+                <source>Due to privacy regulations, you need to explicitly consent to showing this YouTube video. Showing this video will send some personally identifiable information, e.g. your public IP address to servers in the US. If you accept that, please click one of the options below.</source>
+                <target>Aufgrund der geltenden Datenschutzregeln musst du dem Laden von YouTube-Videos explizit zustimmen. Beim Laden des Videos werden automatisch personenbezogene Daten wie z.B. deine öffentliche IP-Adresse an Server in den USA übertragen. Wenn du damit einverstanden bist, wähle bitte eine der folgenden Optionen.</target>
+            </trans-unit>
+            <trans-unit id="overlay.text.vimeo">
+                <source>Due to privacy regulations, you need to explicitly consent to showing this Vimeo video. Showing this video will send some personally identifiable information, e.g. your public IP address to servers in the US. If you accept that, please click one of the options below.</source>
+                <target>Aufgrund der geltenden Datenschutzregeln musst du dem Laden von Vimeo-Videos explizit zustimmen. Beim Laden des Videos werden automatisch personenbezogene Daten wie z.B. deine öffentliche IP-Adresse an Server in den USA übertragen. Wenn du damit einverstanden bist, wähle bitte eine der folgenden Optionen.</target>
+            </trans-unit>
+            <trans-unit id="overlay.option.showOnce">
+                <source>Show video once</source>
+                <target>Dieses Video einmalig laden</target>
+            </trans-unit>
+            <trans-unit id="overlay.option.showAllForSession">
+                <source>Show all videos until I close my browser</source>
+                <target>Alle Videos laden (diese Sitzung)</target>
+            </trans-unit>
+            <trans-unit id="overlay.option.showAll">
+                <source>Always show all videos</source>
+                <target>Videos immer laden</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

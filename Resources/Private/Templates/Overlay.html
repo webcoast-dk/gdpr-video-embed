@@ -1,0 +1,30 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers">
+<div class="gdpr-overlay" data-component="gdprOverlay">
+    <p class="gdpr-overlay__text">
+        <f:translate id="overlay.text.{file.extension}"/>
+    </p>
+    <ul class="gdpr-overlay__options">
+        <f:if condition="{settings.options.showOnce}">
+            <li class="gdpr-overlay__option">
+                <button class="button button--primary" data-component="optionButton" data-option="showOnce">
+                    <f:translate id="overlay.option.showOnce"/>
+                </button>
+            </li>
+        </f:if>
+        <f:if condition="{settings.options.showAllForSession}">
+            <li class="gdpr-overlay__option">
+                <button class="button button--primary" data-component="optionButton" data-option="showAllForSession">
+                    <f:translate id="overlay.option.showAllForSession"/>
+                </button>
+            </li>
+        </f:if>
+        <f:if condition="{settings.options.showAll}">
+            <li class="gdpr-overlay__option">
+                <button class="button button--primary" data-component="optionButton" data-option="showAll">
+                    <f:translate id="overlay.option.showAll"/>
+                </button>
+            </li>
+        </f:if>
+    </ul>
+</div>
+</html>

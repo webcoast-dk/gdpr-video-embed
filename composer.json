@@ -1,0 +1,37 @@
+{
+    "name": "webcoast/gdpr-video-embed",
+    "title": "GDPR video embed",
+    "description": "TYPO3 CMS extension for embedding YouTube and Vimeo videos GDPR compliant",
+    "type": "typo3-cms-extension",
+    "keywords": ["typo3", "cms", "youtube", "vimeo", "gdpr", "compliant"],
+    "authors": [
+        {
+            "name": "Thorben Nissen",
+            "email": "thorben@webcoast.dk",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-release/1.0": "1.0.x"
+        },
+        "typo3/cms":{
+            "extension-key": "gdpr_video_embed"
+        }
+    },
+    "license": "GPL-3.0-or-later",
+    "support": {
+        "source": "https://github.com/webcoast-dk/gdpr-video-embed",
+        "issues": "https://github.com/webcoast-dk/gdpr-video-embed/issues"
+    },
+    "require": {
+        "typo3/cms-core": "^11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "WEBcoast\\GdprVideoEmbed\\": "Classes"
+        }
+    }
+}

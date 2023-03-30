@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext">
+        <body>
+            <trans-unit id="overlay.header">
+                <source>We protect your privacy</source>
+            </trans-unit>
+            <trans-unit id="overlay.text.youtube">
+                <source>Due to privacy regulations, you need to explicitly consent to showing this YouTube video. Showing this video will send some personally identifiable information, e.g. your public IP address to servers in the US. If you accept that, please click one of the options below.</source>
+            </trans-unit>
+            <trans-unit id="overlay.text.vimeo">
+                <source>Due to privacy regulations, you need to explicitly consent to showing this Vimeo video. Showing this video will send some personally identifiable information, e.g. your public IP address to servers in the US. If you accept that, please click one of the options below.</source>
+            </trans-unit>
+            <trans-unit id="overlay.option.showOnce">
+                <source>Show video once</source>
+            </trans-unit>
+            <trans-unit id="overlay.option.showAllForSession">
+                <source>Show all videos until I close my browser</source>
+            </trans-unit>
+            <trans-unit id="overlay.option.showAll">
+                <source>Always show all videos</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

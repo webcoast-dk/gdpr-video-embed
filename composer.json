@@ -15,7 +15,7 @@
     "prefer-stable": true,
     "extra": {
         "branch-alias": {
-            "dev-release/1.0": "1.0.x"
+            "dev-release/1.0": "1.0.x-dev"
         },
         "typo3/cms":{
             "extension-key": "gdpr_video_embed"
